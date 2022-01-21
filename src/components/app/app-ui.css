@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(59, 59, 59);
+}
+section {
+  margin: 10px;
+  background-color: gray;
+  border-radius: 20px;
+}
+.instruc {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  height: auto;
+  color: white;
+}
+Grid {
+  padding: 10px;
+}
