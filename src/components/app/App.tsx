@@ -5,7 +5,6 @@ import SoundKeyboard from "../SoundKeyboard";
 import { keyMap, playSound, Sounds } from "../../utils/soundPlaying";
 import RecordingControls from "../RecordingControls";
 import TrackRecordingPanel from "../TrackRecordingPanel";
-// @ts-ignore
 import KeyboardEventHandler from "react-keyboard-event-handler";
 import PlayPanel from "../PlayPanel";
 import "./app-ui.css";

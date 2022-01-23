@@ -1,4 +1,5 @@
 export enum Sounds {
+  airhorn = "airhorn",
   boom = "boom",
   clap = "clap",
   hihat = "hihat",
@@ -12,6 +13,8 @@ export enum Sounds {
 
 export const keyMap = (key: string): Sounds => {
   switch (key) {
+    case "w":
+      return Sounds.airhorn;
     case "s":
       return Sounds.clap;
     case "d":

@@ -7,6 +7,7 @@ interface SoundKeyboardProps {
 }
 
 const SoundMap: { [key in Sounds]: string } = {
+  airhorn: "W",
   boom: "A",
   clap: "S",
   hihat: "D",
