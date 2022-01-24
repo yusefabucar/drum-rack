@@ -111,7 +111,8 @@ const App: React.FC = () => {
   return (
     <section className="daw-ui">
       <div className="instruc">
-        <h2>Intructions</h2>
+        <h2>Instructions</h2>
+
         <p className="inst">
           To use the drum module, press the corresponding keys on your keyboard
           to activate each sound. To record, first select the track layer i.e. 1
@@ -122,6 +123,7 @@ const App: React.FC = () => {
           the bottom and pressing 'play'. Up to four tracks can be layered and
           played simultaneously!
         </p>
+        <h6>CurrentKit:Trap</h6>
       </div>
       <Grid
         container
